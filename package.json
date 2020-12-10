@@ -1,0 +1,42 @@
+{
+  "name": "vscode-snippets",
+  "version": "0.1.0",
+  "description": "A set of vscode snippets I use.",
+  "author": "mstark5652",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mstark5652/vscode-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "keywords": [
+    "snippets",
+    "markdown",
+    "react",
+    "javascript"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/markdown.json"
+      }
+    ]
+  }
+}

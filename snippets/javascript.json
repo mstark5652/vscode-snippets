@@ -1,0 +1,26 @@
+{
+  "Functional Component": {
+    "prefix": "reactfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "\treturn (",
+      "\t\t<>",
+      "\t\t</>",
+      "\t)",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE",
+      ""
+    ],
+    "description": "Creates a react functional component based on file name."
+  },
+  "Use Fetch Hook": {
+    "prefix": "useFetch",
+    "body": [
+      "const [{ apiResult, isLoading, error }, setPayload, setUrl] = useFetch()"
+    ],
+    "description": "Implements useFetch hook with all resulting values pulled out."
+  }
+}
